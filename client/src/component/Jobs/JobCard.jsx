@@ -3,8 +3,6 @@ import styles from './job.module.css'
 
 
 function JobCard({ el }) {
-
-    console.log(el)
     return (
         <div className={styles.jobCardBox}>
             <div className={styles.jobCard} >
@@ -13,7 +11,7 @@ function JobCard({ el }) {
                 </div>
                 <div className={styles.desc}>
                     <div className={styles.title}>
-                        <h2>Hello</h2>
+                        <h2>{el.title}</h2>
                     </div>
                     <div className={styles.detail} >
                         <p>{el.description}</p>
