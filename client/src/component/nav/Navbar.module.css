@@ -1,0 +1,87 @@
+.navbar_Cont{
+     background-color: #5E96DF;
+     width:100vw; 
+     height: 40vh;
+     position: absolute;
+}
+.navbar{
+    display:flex;
+   justify-content: space-around;
+   
+   margin: auto;
+   padding-top: 30px;
+}
+
+.job_section_1{
+    width:40%; 
+    display:flex;
+    justify-content: flex-end;
+}
+
+.job_section_1 p{
+    margin: 10px;
+    color: white;
+}
+.job_section_1 p:hover{
+      border-bottom: 1px solid whitesmoke;
+}
+
+.job_section_2{
+   width:40%; 
+    display:flex;
+    justify-content: flex-end;
+}
+.job_section_2 p{
+    margin: 10px;
+    color: white;
+}
+.job_section_2 p:hover{
+      border-bottom: 1px solid whitesmoke;
+}
+
+.description{
+    color: white;
+    text-align: left;
+    margin: 20px 0  0 21vw;
+}
+
+.search_section{
+    width:60vw;
+    margin:auto;
+    height:40px;
+    position: relative;
+    top: 37vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius:10px;
+    z-index: 1;
+}
+
+
+.input{
+    width:300px;
+    height: 40px;
+   padding-left: 20px;
+    outline: none;
+    border:none;
+
+}
+.search_select{
+    width:300px;
+    height: 40px;
+    padding: 22px;
+    outline: none;
+    border:none;
+}
+
+.search_btn{
+    width:200px;
+    height: 46px;
+    background-color: #F07987;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+}

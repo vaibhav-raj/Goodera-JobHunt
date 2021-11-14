@@ -1,0 +1,71 @@
+.jobsContainer{
+      width: 100vw;
+      margin: auto;
+      background-color:#c0bebe;
+      position: relative;
+      top: 28vh;
+      padding:100px 0;
+    }
+    .jobInnerContainer{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+        width: 80%;
+      background-color:#E5E5E5;
+      border:1px solid #F07987;
+
+margin:auto;
+}
+.jobCardBox{
+     width: 400px;
+     padding: 20px;
+     border-radius: 10px;
+}
+.jobCard{
+    width: 400px;
+    border-radius: 10px;
+    display:flex;
+}
+
+.image{
+    width: 150px; height: 150px;
+    border-radius: 16px;
+}
+.desc{
+margin-left: 10px;
+}
+.title>h2{
+    padding:0;
+    margin:0;
+    text-align: left;
+
+}
+.detail{
+  width:250px;
+  height:75px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align:left;
+  
+}
+.detail> p {
+    font-size:12px;
+}
+.detail_btn> button{
+    padding:10px;
+    background-color:white;
+    border:2px solid #F07987;
+border-radius: 10px;
+color:#F07987;
+    text-align: right;
+    margin-right:40px;
+
+}
+.detail_btn{
+   
+    display:flex;
+    justify-content: flex-end;
+     width:250px;
+
+}
